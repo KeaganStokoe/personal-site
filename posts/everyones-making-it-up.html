@@ -7,10 +7,92 @@
     <link rel="stylesheet" href="../styles.css">
     <script src="../theme.js" defer></script>
     <style>
-// ... existing code ...
+        .post-content {
+            margin-top: 2rem;
+            line-height: 1.7;
+            font-size: 1.1rem;
+        }
+        
+        .post-header {
+            margin-bottom: 2rem;
+        }
+        
+        .back-link {
+            display: inline-block;
+            margin-bottom: 2rem;
+            color: var(--link-color);
+        }
+
+        .post-content p {
+            margin-bottom: 1.5rem;
+        }
+
+        .post-meta {
+            color: #666;
+            font-size: 1rem;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        h2 {
+            font-size: 1.8rem;
+            margin: 2rem 0 1rem;
+        }
+
+        nav .name {
+            color: var(--text-color);
+            font-size: 1.2rem;
+            font-weight: 500;
+        }
+
+        .nav-links a {
+            color: var(--text-color) !important;
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+
+        .nav-links a:hover {
+            color: #D35400 !important;
+            text-decoration: none;
+        }
     </style>
 </head>
 <body>
-    <!-- Rest of the file remains unchanged -->
+    <nav>
+        <div class="name">Keagan Stokoe</div>
+        <div class="nav-links">
+            <a href="../index.html#about">About</a>
+            <a href="../index.html#now">Now</a>
+            <button class="theme-toggle">🌞</button>
+        </div>
+    </nav>
+
+    <main>
+        <a href="../index.html" class="back-link">← Back</a>
+        
+        <article>
+            <header class="post-header">
+                <h1>Everyone's Making It Up</h1>
+                <div class="post-meta">October 7, 2022 · 4 minute read</div>
+            </header>
+
+            <div class="post-content">
+                <p>I recently read a story about a young man who was asked to give a speech at his father's funeral. He was nervous, but he knew what he wanted to say. He wanted to tell everyone about his father's life, about the kind of man he was, and about the lessons he had learned from him.</p>
+
+                <p>The young man spent hours writing and rewriting his speech. He practiced it over and over again, making sure every word was perfect. When the day of the funeral came, he stood up in front of everyone and delivered his speech. It was beautiful, heartfelt, and moving.</p>
+
+                <p>After the funeral, several people came up to him and told him how touched they were by his words. They said they had never heard such a beautiful tribute to a father. The young man was grateful for their kind words, but he couldn't help but feel like he had failed.</p>
+
+                <p>You see, he had spent so much time trying to make his speech perfect that he had forgotten to just speak from his heart. He had forgotten that sometimes the most powerful words are the ones that come naturally, without any planning or preparation.</p>
+
+                <p>This story reminds me of something I've come to believe: everyone's making it up as they go along. We're all just trying our best, learning as we go, and hoping we're doing the right thing.</p>
+
+                <p>And that's okay. In fact, it's more than okay. It's what makes us human.</p>
+            </div>
+        </article>
+    </main>
 </body>
 </html> 
